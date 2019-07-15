@@ -74,18 +74,18 @@ header {
 	width: 100%;
 }
 nav {
-	width: 90%;
+	width: 70%;
 	display: inline-block;
 	white-space:nowrap;	
 }
 
 nav a {
 	display: inline-block;
-	padding: 5px 6% 5px 2%;
-	margin: 20px;
+	padding: 5px 2% 5px 2%;
+	margin: 20px 10px;
 	text-decoration: none;
 	color: black;
-	font-size: 36px;
+	font-size: 16px;
 	white-space:nowrap;
 }
 
@@ -113,6 +113,8 @@ h2 {
 	background-image: url(img/logo.png);
 	background-position: center center;
 	background-repeat: no-repeat;	
+	min-width: 184px;
+		
 }
 
 .heading {
@@ -201,7 +203,7 @@ h2 {
 }
 
 #bottom-section {
-	width: 100%;
+	
 	border-bottom: 2px solid black;
 	margin: 0px 40px;
 	padding-bottom: 60px;
@@ -226,9 +228,10 @@ footer {
 }
 
 .address-phone {
-	margin-bottom: 10px;
+	margin-bottom: 20px;
 }
 
 #copyright {
 	text-align: center;
+	margin: 60px 0px 100px 0px;
 }
